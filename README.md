@@ -10,6 +10,12 @@ Clone from github link:
 git clone https://github.com/Eef-M/NextJS-Blog-Web-App.git
 ```
 
+go to the project folder:
+
+```bash
+cd NextJS-Blog-Web-App
+```
+
 then install:
 
 ```bash
