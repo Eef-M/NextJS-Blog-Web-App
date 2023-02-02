@@ -1,5 +1,4 @@
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer'
 import '../styles/global.css'
 
 function App({ Component, pageProps }) {
@@ -8,7 +7,6 @@ function App({ Component, pageProps }) {
             <div>
                 <Navbar />
                 <Component {...pageProps} />
-                {/* <Footer /> */}
             </div>
         </>
     )

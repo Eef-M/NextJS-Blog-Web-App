@@ -4,6 +4,18 @@ Front-End Engineer Challenge from PT. Synapsis Sinergi Digital This project was 
 
 ## Getting Started
 
+Clone from github link:
+
+```bash
+git clone https://github.com/Eef-M/NextJS-Blog-Web-App.git
+```
+
+then install:
+
+```bash
+npm install next
+```
+
 First, run the development server:
 
 ```bash
