@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AddUser = (props) => {
+export default function HandleUser(props) {
     const {
         userData,
         setUserData,
@@ -49,5 +49,3 @@ const AddUser = (props) => {
         </>
     )
 }
-
-export default AddUser

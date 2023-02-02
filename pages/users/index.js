@@ -12,7 +12,7 @@ import {
     ArrowLeftIcon,
     ArrowRightIcon
 } from '@heroicons/react/24/solid'
-import AddUser from "../../components/Adduser";
+import HandleUser from "../../components/handleUser";
 import DeleteModal from "../../components/DeleteModal";
 import SuccessDialog from "../../components/SuccessDialog";
 import Search from "./search";
@@ -163,7 +163,7 @@ export default function Users(props) {
         <>
             <div className="px-10 my-5 flex items-start justify-center gap-3 flex-col sm:flex-row">
                 <div className={`p-4 bg-white w-full sm:w-1/2 flex flex-col items-center justify-center gap-2 ${isOpen.edit ? "border border-[#516BEB] shadow-lg shadow-[#516BEB]" : ""}`}>
-                    <AddUser
+                    <HandleUser
                         userData={userData}
                         setUserData={setUserData}
                         selectGender={selectGender}
