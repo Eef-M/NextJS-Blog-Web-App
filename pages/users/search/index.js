@@ -7,7 +7,7 @@ export default function Search(props) {
 
     return (
         <>
-            {searchResult.map((result) => (
+            {searchResult && searchResult.map((result) => (
                 <div key={result?.id} className="flex items-center justify-between py-2 px-5 bg-white shadow-sm w-full rounded-sm">
                     <div className="flex items-center justify-center gap-2">
                         <UserCircleIcon className="h-8 w-8 text-[#516BEB]" />
